@@ -4,7 +4,9 @@ def convert_to_integer(value):
         result = int(value)
         print(f'Conversion successful! Result: {result}')
     except ValueError:
-        print('Conversion failed. Please enter a valid integer.')
+        print('Invalid input. Please enter a whole number, such as 5 or 12.')
+    except ZeroDivisionError:
+        print('A division error occurred. Please try again!')
     else:
         print('Else invoked')
     finally:
