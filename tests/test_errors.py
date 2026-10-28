@@ -1,12 +1,7 @@
-def test_success():
-    pass
+from tests.errors import convert_to_integer
+
+def test_integer():
+    assert convert_to_integer(123) == 123
 
 
 
-
-# def add(a, b):
-#     return a + b
-
-
-# def test_add():
-#     assert add(2, 3) == 5
