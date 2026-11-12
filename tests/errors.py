@@ -9,7 +9,7 @@ def convert_to_integer(value):
     #     print('A division error occurred. Please try again!')
     except Exception as e:
         print(f'An unexpected error occurred: {e}')
-    else: # only happes if no exceptions occured
+    else: # only happens if no exceptions occurred
         print('Else invoked')
     finally: # happens no matter what
         print('Close any open resources')
